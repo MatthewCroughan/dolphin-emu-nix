@@ -27,7 +27,8 @@
         };
       };
       perSystem = { config, self', inputs', pkgs, system, ... }: {
-        packages = {
+        packages = rec {
+          default = dolphin-emu;
           dolphin-emu = pkgs.dolphinEmuMaster.overrideAttrs (old: {
             src = dolphin-emu-src;
             version = dolphin-emu-src.rev;
