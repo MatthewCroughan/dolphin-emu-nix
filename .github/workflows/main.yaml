@@ -21,6 +21,10 @@ jobs:
         run: |
           set -xeuo pipefail
           nix flake update --commit-lock-file
+      - name: build-flake
+        run: |
+          set -xeuo pipefail
+          nix build
       - name: push
         run: |
           git push origin HEAD
