@@ -30,6 +30,7 @@
         packages = rec {
           default = dolphin-emu;
           dolphin-emu = pkgs.dolphinEmuMaster.overrideAttrs (old: {
+            meta.mainProgram = "dolphin-emu";
             src = dolphin-emu-src;
             version = dolphin-emu-src.rev;
             cmakeFlags = old.cmakeFlags ++ [
