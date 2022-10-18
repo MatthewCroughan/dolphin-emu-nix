@@ -1,6 +1,8 @@
 # dolphin-emu-nix
 
-dolphin-emu-nix implements a Nix expression for the Dolphin Gamecube Emulator which is updated every 10 minutes. CI then performs a build, and if this build succeeds, it pushes the results to matthewcroughan.cachix.org which can be used as a Nix substituter.
+dolphin-emu-nix implements a Nix expression for the Dolphin Gamecube Emulator which is updated every 40 minutes. CI then performs a build, and if this build succeeds, it pushes the results to matthewcroughan.cachix.org which can be used as a Nix substituter.
+
+This flake effectively implements https://dolphin-emu.org/download/ but for Linux.
 
 Inspired by [Colemickens' flake-firefox-nightly](https://github.com/colemickens/flake-firefox-nightly)
 
