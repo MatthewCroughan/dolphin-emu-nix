@@ -3,11 +3,11 @@
     "dolphin-emu-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1673698406,
-        "narHash": "sha256-SYigrOCn2k7gYcOOM1Ktnlj6Jrz/Lj4MeD6Y52yALPc=",
+        "lastModified": 1673741993,
+        "narHash": "sha256-+jNR3q7dNpYt8f+/ZJoxiIgIc2I6bQKcFL9hMtmt3BU=",
         "ref": "refs/heads/master",
-        "rev": "5538583f1b29f9f2e6f9ef0b63d9951895514686",
-        "revCount": 38644,
+        "rev": "30f0051f9c36b94ddd61dbaa8451eac9a6d489a4",
+        "revCount": 38647,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/dolphin-emu/dolphin.git"
@@ -38,11 +38,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1673540789,
-        "narHash": "sha256-xqnxBOK3qctIeUVxecydrEDbEXjsvHCPGPbvsl63M/U=",
+        "lastModified": 1673631141,
+        "narHash": "sha256-AprpYQ5JvLS4wQG/ghm2UriZ9QZXvAwh1HlgA/6ZEVQ=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "0f213d0fee84280d8c3a97f7469b988d6fe5fcdf",
+        "rev": "befc83905c965adfd33e5cae49acb0351f6e0404",
         "type": "github"
       },
       "original": {
