@@ -3,11 +3,11 @@
     "dolphin-emu-src": {
       "flake": false,
       "locked": {
-        "lastModified": 1681835933,
-        "narHash": "sha256-CJjQqe6ovxBDKrGEiS8VKH7TkzzYowLBgr2sqvljb0I=",
+        "lastModified": 1681848950,
+        "narHash": "sha256-czZlZuVCbTR12mxbaMdkC6d5BoaD9tMOBUtBfTxziKQ=",
         "ref": "refs/heads/master",
-        "rev": "361ffd5917e6c9af8c7552720cffd08bccf579b0",
-        "revCount": 39658,
+        "rev": "8aae296d4e4bafdac297af1518459c0e14edeb57",
+        "revCount": 39667,
         "submodules": true,
         "type": "git",
         "url": "https://github.com/dolphin-emu/dolphin.git"
