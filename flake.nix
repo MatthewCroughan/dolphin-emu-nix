@@ -14,8 +14,8 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
     flake-parts.url = "github:hercules-ci/flake-parts";
   };
-  outputs = { self, nixpkgs, flake-parts, dolphin-emu-src }:
-    flake-parts.lib.mkFlake { inherit self; } {
+  outputs = inputs@{ self, nixpkgs, flake-parts, dolphin-emu-src }:
+    flake-parts.lib.mkFlake { inherit inputs; } {
       systems = [
         "x86_64-linux"
         "aarch64-linux"
